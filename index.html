@@ -1,0 +1,406 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tamilarasan | Portfolio</title>
+
+    <link rel="stylesheet" href="port.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <a href="#home" id="port">Portfolio</a>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#pro">Projects</a>
+            <a href="#about">About Me</a>
+            <a href="#skill">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+    </nav>
+
+
+    <!-- HOME -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="hello">HELLO, I'M</p>
+
+            <h1>TAMILARASAN</h1>
+
+            <h2>MCA Student & Web Developer</h2>
+
+            <p class="hero-description">
+                I am an MCA student and aspiring web developer with
+                a passion for creating responsive, user-friendly and
+                modern web applications. I enjoy learning new
+                technologies and turning ideas into practical
+                digital solutions.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#pro" class="btn btn-primary">
+                    View My Projects
+                </a>
+
+                <a href="#contact" class="btn btn-outline">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+   
+
+<!-- PROJECTS SECTION -->
+
+<section id="pro">
+
+    <div class="section-title">
+        <h1>My <span>Projects</span></h1>
+        <p>Explore my projects and development work</p>
+    </div>
+
+    <div class="project-carousel">
+
+        <button class="arrow prev" id="prev" aria-label="Previous project">
+            &#10094;
+        </button>
+
+        <div class="project-window">
+
+            <div class="project-track" id="projectTrack">
+
+                <!-- PROJECT 1: EYEBALL -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="./eyeball.jpeg"
+                             alt="Eyeball project preview">
+                    </div>
+
+                    <div class="project-info">
+
+                        <span class="project-number">PROJECT 01</span>
+
+                        <h2>Eyeball Project</h2>
+
+                        <p>
+                            An interactive web project where the eyeball
+                            follows the mouse cursor. The pupil moves
+                            according to the cursor position, creating
+                            an interesting and interactive user experience.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://bhuvanesh6225-creator.github.io/EyeBall/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="github-btn">
+                            View on GitHub <span>&#8594;</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 2: RANDOM BALL MOVEMENT -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="./randomBall.jpeg"
+                             alt="Random ball movement project preview">
+                    </div>
+
+                    <div class="project-info">
+
+                        <span class="project-number">PROJECT 02</span>
+
+                        <h2>Random Ball Movement</h2>
+
+                        <p>
+                            An animated web project where multiple
+                            colorful balls move randomly around the
+                            screen. The balls change direction when
+                            they reach the boundaries, creating a
+                            dynamic animation.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://bhuvanesh6225-creator.github.io/random_ball/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="github-btn">
+                            View on GitHub <span>&#8594;</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 3: PAC-MAN -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <img src="./pacman.jpeg"
+                             alt="Pac-Man game project preview">
+                    </div>
+
+                    <div class="project-info">
+
+                        <span class="project-number">PROJECT 03</span>
+
+                        <h2>Pac-Man Game</h2>
+
+                        <p>
+                            A classic Pac-Man inspired game where
+                            the player moves through a maze,
+                            collects dots and avoids enemies.
+                            The project focuses on game logic,
+                            keyboard controls and JavaScript.
+                        </p>
+
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://bhuvanesh6225-creator.github.io/pac_man_movement/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="github-btn">
+                            View on GitHub <span>&#8594;</span>
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+        <button class="arrow next" id="next" aria-label="Next project">
+            &#10095;
+        </button>
+
+    </div>
+
+
+    <!-- CAROUSEL DOTS -->
+
+    <div class="carousel-dots">
+
+        <button class="dot active" data-index="0"
+                aria-label="Eyeball project"></button>
+
+        <button class="dot" data-index="1"
+                aria-label="Random ball movement project"></button>
+
+        <button class="dot" data-index="2"
+                aria-label="Pac-Man project"></button>
+
+    </div>
+
+</section>
+
+
+
+    <!-- ABOUT ME -->
+
+    <section id="about">
+
+        <div class="section-title">
+            <h1>About Me</h1>
+            <p>Know more about me</p>
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-box">
+
+                <h2>Who Am I?</h2>
+
+                <p>
+                    Hello! My name is Tamilarasan. I am an MCA
+                    student and an aspiring Web Developer with
+                    a strong interest in creating modern and
+                    user-friendly websites.
+                </p>
+
+                <p>
+                    I enjoy learning new technologies and
+                    improving my programming skills through
+                    practical projects. I am particularly
+                    interested in web development, programming
+                    and database management.
+                </p>
+
+            </div>
+
+            <div class="about-box">
+
+                <h2>My Goal</h2>
+
+                <p>
+                    I have experience working with HTML, CSS,
+                    JavaScript, Python, Django, PHP and MySQL.
+                </p>
+
+                <p>
+                    My goal is to become a skilled Full-Stack
+                    Developer and build responsive, efficient
+                    and user-friendly web applications that
+                    solve real-world problems.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+
+    <section id="skill">
+
+        <div class="section-title">
+            <h1>My Skills</h1>
+            <p>Technologies I work with</p>
+        </div>
+
+        <div class="skill-container">
+
+            <div class="skill-box">
+                <h2>HTML & CSS</h2>
+
+                <p>
+                    I can create structured, responsive and
+                    visually attractive web pages using HTML
+                    and CSS. I have knowledge of Flexbox,
+                    Grid, positioning and responsive design.
+                </p>
+            </div>
+
+            <div class="skill-box">
+                <h2>JavaScript</h2>
+
+                <p>
+                    I have knowledge of JavaScript fundamentals
+                    including DOM manipulation, events,
+                    functions, arrays, objects and basic
+                    asynchronous programming.
+                </p>
+            </div>
+
+            <div class="skill-box">
+                <h2>Python & Django</h2>
+
+                <p>
+                    I have experience with Python and Django
+                    for developing web applications. I
+                    understand views, URLs, templates, forms
+                    and basic database integration.
+                </p>
+            </div>
+
+            <div class="skill-box">
+                <h2>Database</h2>
+
+                <p>
+                    I have knowledge of SQL and database
+                    concepts including tables, relationships,
+                    CRUD operations, queries and database
+                    management using MySQL.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+
+        <div class="section-title">
+            <h1>Contact Me</h1>
+            <p>Let's connect</p>
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-box">
+                <h2>Email</h2>
+                <p>tamilarasan@gmail.com</p>
+            </div>
+
+            <div class="contact-box">
+                <h2>Phone</h2>
+                <p>+91 XXXXX XXXXX</p>
+            </div>
+
+            <div class="contact-box">
+                <h2>Location</h2>
+                <p>Tamil Nadu, India</p>
+            </div>
+
+            <div class="contact-box">
+                <h2>Career</h2>
+                <p>Open to Internship & Job Opportunities</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p>&copy; 2026 Tamilarasan. All Rights Reserved.</p>
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
